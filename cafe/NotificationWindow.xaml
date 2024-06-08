@@ -1,0 +1,65 @@
+﻿<Window x:Class="cafe_management.NotificationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cafe_management"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="NotificationWindow" Height="300" Width="500"
+        Background="#F6F6F6"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="155"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Height="300" Width="500" CornerRadius="15" materialDesign:ShadowAssist.ShadowDepth="Depth3">
+        </Border>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <TextBlock
+                    Name="Line1"
+                    FontSize="27"
+                    FontFamily="Roboto"
+                    FontWeight="Bold"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Bottom"
+                    Margin="2">
+                </TextBlock>
+            </Grid>
+            <Grid Grid.Row="1">
+                <TextBlock
+                    Name="Line2"
+                    FontSize="27"
+                    FontFamily="Roboto"
+                    FontWeight="Bold"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top">
+                </TextBlock>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Button 
+                    Click="Button_Click" 
+                    FontSize="27"
+                    Foreground="#000000"
+                    Content="TRỞ VỀ"
+                    FontFamily="Roboto"
+                    Background="#EA8025"
+                    Width="240"
+                    Height="50"
+                    HorizontalAlignment="Center"
+                    Margin="15"
+                    materialDesign:ButtonAssist.CornerRadius="15"
+                    Style="{StaticResource MaterialDesignRaisedLightButton}">
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

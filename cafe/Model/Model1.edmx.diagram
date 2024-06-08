@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2ac8cfccdaf840f88de36cc9bf6f5973" Name="Diagram1">
+        <EntityTypeShape EntityType="QLCFModel.ACCOUNT" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="QLCFModel.CTHD" Width="1.5" PointX="5.25" PointY="1" />
+        <EntityTypeShape EntityType="QLCFModel.CTPC" Width="1.5" PointX="8" PointY="4.875" />
+        <EntityTypeShape EntityType="QLCFModel.HOADON" Width="1.5" PointX="3" PointY="5.125" />
+        <EntityTypeShape EntityType="QLCFModel.MON" Width="1.5" PointX="3" PointY="0.875" />
+        <EntityTypeShape EntityType="QLCFModel.NGUYENLIEU" Width="1.5" PointX="5.75" PointY="7.875" />
+        <EntityTypeShape EntityType="QLCFModel.PHANLOAI" Width="1.5" PointX="0.75" PointY="1.25" />
+        <EntityTypeShape EntityType="QLCFModel.PHIEUCHI" Width="1.5" PointX="5.75" PointY="5" />
+        <AssociationConnector Association="QLCFModel.FK_CTHD_HOADON" />
+        <AssociationConnector Association="QLCFModel.FK_CTHD_MON" />
+        <AssociationConnector Association="QLCFModel.FK_CTPC_NGUYENLIEU" />
+        <AssociationConnector Association="QLCFModel.FK_CTPC_PHIEUCHI" />
+        <AssociationConnector Association="QLCFModel.FK_MON_PHANLOAI" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLCFModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ACCOUNT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TK" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="MK" Type="nvarchar" MaxLength="100" />
+    <Property Name="IdRole" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CTHD">
+    <Key>
+      <PropertyRef Name="MaHD" />
+      <PropertyRef Name="MaM" />
+    </Key>
+    <Property Name="MaHD" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="MaM" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="SL" Type="int" />
+  </EntityType>
+  <EntityType Name="HOADON">
+    <Key>
+      <PropertyRef Name="MaHD" />
+    </Key>
+    <Property Name="MaHD" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="NgXuat" Type="date" />
+    <Property Name="TongGia" Type="money" />
+    <Property Name="MaTB" Type="int" />
+  </EntityType>
+  <EntityType Name="MON">
+    <Key>
+      <PropertyRef Name="MaM" />
+    </Key>
+    <Property Name="MaM" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="TenMon" Type="nvarchar" MaxLength="100" />
+    <Property Name="DonGia" Type="smallmoney" />
+    <Property Name="MaLoai" Type="int" />
+  </EntityType>
+  <EntityType Name="PHANLOAI">
+    <Key>
+      <PropertyRef Name="MaLoai" />
+    </Key>
+    <Property Name="MaLoai" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenLoai" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="THEBAN">
+    <Key>
+      <PropertyRef Name="MaTB" />
+    </Key>
+    <Property Name="MaTB" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TinhTrang" Type="int" />
+  </EntityType>
+  <EntityType Name="USERROLE">
+    <Key>
+      <PropertyRef Name="IdRole" />
+    </Key>
+    <Property Name="IdRole" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DisplayName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK_ACCOUNT_USERROLE">
+    <End Role="USERROLE" Type="Self.USERROLE" Multiplicity="1" />
+    <End Role="ACCOUNT" Type="Self.ACCOUNT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USERROLE">
+        <PropertyRef Name="IdRole" />
+      </Principal>
+      <Dependent Role="ACCOUNT">
+        <PropertyRef Name="IdRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTHD_HOADON">
+    <End Role="HOADON" Type="Self.HOADON" Multiplicity="1" />
+    <End Role="CTHD" Type="Self.CTHD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOADON">
+        <PropertyRef Name="MaHD" />
+      </Principal>
+      <Dependent Role="CTHD">
+        <PropertyRef Name="MaHD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTHD_MON">
+    <End Role="MON" Type="Self.MON" Multiplicity="1" />
+    <End Role="CTHD" Type="Self.CTHD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MON">
+        <PropertyRef Name="MaM" />
+      </Principal>
+      <Dependent Role="CTHD">
+        <PropertyRef Name="MaM" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HOADON_THEBAN">
+    <End Role="THEBAN" Type="Self.THEBAN" Multiplicity="0..1" />
+    <End Role="HOADON" Type="Self.HOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="THEBAN">
+        <PropertyRef Name="MaTB" />
+      </Principal>
+      <Dependent Role="HOADON">
+        <PropertyRef Name="MaTB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MON_PHANLOAI">
+    <End Role="PHANLOAI" Type="Self.PHANLOAI" Multiplicity="0..1" />
+    <End Role="MON" Type="Self.MON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PHANLOAI">
+        <PropertyRef Name="MaLoai" />
+      </Principal>
+      <Dependent Role="MON">
+        <PropertyRef Name="MaLoai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLCFModelStoreContainer">
+    <EntitySet Name="ACCOUNT" EntityType="Self.ACCOUNT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CTHD" EntityType="Self.CTHD" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HOADON" EntityType="Self.HOADON" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MON" EntityType="Self.MON" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PHANLOAI" EntityType="Self.PHANLOAI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="THEBAN" EntityType="Self.THEBAN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USERROLE" EntityType="Self.USERROLE" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ACCOUNT_USERROLE" Association="Self.FK_ACCOUNT_USERROLE">
+      <End Role="USERROLE" EntitySet="USERROLE" />
+      <End Role="ACCOUNT" EntitySet="ACCOUNT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTHD_HOADON" Association="Self.FK_CTHD_HOADON">
+      <End Role="HOADON" EntitySet="HOADON" />
+      <End Role="CTHD" EntitySet="CTHD" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTHD_MON" Association="Self.FK_CTHD_MON">
+      <End Role="MON" EntitySet="MON" />
+      <End Role="CTHD" EntitySet="CTHD" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HOADON_THEBAN" Association="Self.FK_HOADON_THEBAN">
+      <End Role="THEBAN" EntitySet="THEBAN" />
+      <End Role="HOADON" EntitySet="HOADON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MON_PHANLOAI" Association="Self.FK_MON_PHANLOAI">
+      <End Role="PHANLOAI" EntitySet="PHANLOAI" />
+      <End Role="MON" EntitySet="MON" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

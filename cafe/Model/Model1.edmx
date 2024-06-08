@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="QLCFModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ACCOUNT">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TK" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="MK" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="CTHD">
+          <Key>
+            <PropertyRef Name="MaHD" />
+            <PropertyRef Name="MaM" />
+          </Key>
+          <Property Name="MaHD" Type="int" Nullable="false" />
+          <Property Name="MaM" Type="char" MaxLength="4" Nullable="false" />
+          <Property Name="SL" Type="int" />
+        </EntityType>
+        <EntityType Name="CTPC">
+          <Key>
+            <PropertyRef Name="MaPC" />
+            <PropertyRef Name="MaNgL" />
+          </Key>
+          <Property Name="MaPC" Type="int" Nullable="false" />
+          <Property Name="MaNgL" Type="int" Nullable="false" />
+          <Property Name="SL" Type="int" />
+        </EntityType>
+        <EntityType Name="HOADON">
+          <Key>
+            <PropertyRef Name="MaHD" />
+          </Key>
+          <Property Name="MaHD" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NgXuat" Type="date" />
+          <Property Name="TongGia" Type="money" />
+        </EntityType>
+        <EntityType Name="MON">
+          <Key>
+            <PropertyRef Name="MaM" />
+          </Key>
+          <Property Name="MaM" Type="char" MaxLength="4" Nullable="false" />
+          <Property Name="TenMon" Type="nvarchar" MaxLength="100" />
+          <Property Name="DonGia" Type="smallmoney" />
+          <Property Name="MaLoai" Type="int" />
+        </EntityType>
+        <EntityType Name="NGUYENLIEU">
+          <Key>
+            <PropertyRef Name="MaNgL" />
+          </Key>
+          <Property Name="MaNgL" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TenNgL" Type="nvarchar" MaxLength="100" />
+          <Property Name="DonGia" Type="smallmoney" />
+          <Property Name="DonVi" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="PHANLOAI">
+          <Key>
+            <PropertyRef Name="MaLoai" />
+          </Key>
+          <Property Name="MaLoai" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TenLoai" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="PHIEUCHI">
+          <Key>
+            <PropertyRef Name="MaPC" />
+          </Key>
+          <Property Name="MaPC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NgNhap" Type="date" />
+          <Property Name="TongGia" Type="money" />
+        </EntityType>
+        <Association Name="FK_CTHD_HOADON">
+          <End Role="HOADON" Type="Self.HOADON" Multiplicity="1" />
+          <End Role="CTHD" Type="Self.CTHD" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HOADON">
+              <PropertyRef Name="MaHD" />
+            </Principal>
+            <Dependent Role="CTHD">
+              <PropertyRef Name="MaHD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTHD_MON">
+          <End Role="MON" Type="Self.MON" Multiplicity="1" />
+          <End Role="CTHD" Type="Self.CTHD" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MON">
+              <PropertyRef Name="MaM" />
+            </Principal>
+            <Dependent Role="CTHD">
+              <PropertyRef Name="MaM" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTPC_NGUYENLIEU">
+          <End Role="NGUYENLIEU" Type="Self.NGUYENLIEU" Multiplicity="1" />
+          <End Role="CTPC" Type="Self.CTPC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NGUYENLIEU">
+              <PropertyRef Name="MaNgL" />
+            </Principal>
+            <Dependent Role="CTPC">
+              <PropertyRef Name="MaNgL" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTPC_PHIEUCHI">
+          <End Role="PHIEUCHI" Type="Self.PHIEUCHI" Multiplicity="1" />
+          <End Role="CTPC" Type="Self.CTPC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PHIEUCHI">
+              <PropertyRef Name="MaPC" />
+            </Principal>
+            <Dependent Role="CTPC">
+              <PropertyRef Name="MaPC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MON_PHANLOAI">
+          <End Role="PHANLOAI" Type="Self.PHANLOAI" Multiplicity="0..1" />
+          <End Role="MON" Type="Self.MON" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PHANLOAI">
+              <PropertyRef Name="MaLoai" />
+            </Principal>
+            <Dependent Role="MON">
+              <PropertyRef Name="MaLoai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="QLCFModelStoreContainer">
+          <EntitySet Name="ACCOUNT" EntityType="Self.ACCOUNT" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CTHD" EntityType="Self.CTHD" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CTPC" EntityType="Self.CTPC" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="HOADON" EntityType="Self.HOADON" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MON" EntityType="Self.MON" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="NGUYENLIEU" EntityType="Self.NGUYENLIEU" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PHANLOAI" EntityType="Self.PHANLOAI" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PHIEUCHI" EntityType="Self.PHIEUCHI" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_CTHD_HOADON" Association="Self.FK_CTHD_HOADON">
+            <End Role="HOADON" EntitySet="HOADON" />
+            <End Role="CTHD" EntitySet="CTHD" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTHD_MON" Association="Self.FK_CTHD_MON">
+            <End Role="MON" EntitySet="MON" />
+            <End Role="CTHD" EntitySet="CTHD" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTPC_NGUYENLIEU" Association="Self.FK_CTPC_NGUYENLIEU">
+            <End Role="NGUYENLIEU" EntitySet="NGUYENLIEU" />
+            <End Role="CTPC" EntitySet="CTPC" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTPC_PHIEUCHI" Association="Self.FK_CTPC_PHIEUCHI">
+            <End Role="PHIEUCHI" EntitySet="PHIEUCHI" />
+            <End Role="CTPC" EntitySet="CTPC" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MON_PHANLOAI" Association="Self.FK_MON_PHANLOAI">
+            <End Role="PHANLOAI" EntitySet="PHANLOAI" />
+            <End Role="MON" EntitySet="MON" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="QLCFModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="QLCFEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ACCOUNTs" EntityType="QLCFModel.ACCOUNT" />
+          <EntitySet Name="CTHDs" EntityType="QLCFModel.CTHD" />
+          <EntitySet Name="CTPCs" EntityType="QLCFModel.CTPC" />
+          <EntitySet Name="HOADONs" EntityType="QLCFModel.HOADON" />
+          <EntitySet Name="MONs" EntityType="QLCFModel.MON" />
+          <EntitySet Name="NGUYENLIEUx" EntityType="QLCFModel.NGUYENLIEU" />
+          <EntitySet Name="PHANLOAIs" EntityType="QLCFModel.PHANLOAI" />
+          <EntitySet Name="PHIEUCHIs" EntityType="QLCFModel.PHIEUCHI" />
+          <AssociationSet Name="FK_CTHD_HOADON" Association="QLCFModel.FK_CTHD_HOADON">
+            <End Role="HOADON" EntitySet="HOADONs" />
+            <End Role="CTHD" EntitySet="CTHDs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTHD_MON" Association="QLCFModel.FK_CTHD_MON">
+            <End Role="MON" EntitySet="MONs" />
+            <End Role="CTHD" EntitySet="CTHDs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTPC_NGUYENLIEU" Association="QLCFModel.FK_CTPC_NGUYENLIEU">
+            <End Role="NGUYENLIEU" EntitySet="NGUYENLIEUx" />
+            <End Role="CTPC" EntitySet="CTPCs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTPC_PHIEUCHI" Association="QLCFModel.FK_CTPC_PHIEUCHI">
+            <End Role="PHIEUCHI" EntitySet="PHIEUCHIs" />
+            <End Role="CTPC" EntitySet="CTPCs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MON_PHANLOAI" Association="QLCFModel.FK_MON_PHANLOAI">
+            <End Role="PHANLOAI" EntitySet="PHANLOAIs" />
+            <End Role="MON" EntitySet="MONs" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="ACCOUNT">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TK" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="MK" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="CTHD">
+          <Key>
+            <PropertyRef Name="MaHD" />
+            <PropertyRef Name="MaM" />
+          </Key>
+          <Property Name="MaHD" Type="Int32" Nullable="false" />
+          <Property Name="MaM" Type="String" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="SL" Type="Int32" />
+          <NavigationProperty Name="HOADON" Relationship="QLCFModel.FK_CTHD_HOADON" FromRole="CTHD" ToRole="HOADON" />
+          <NavigationProperty Name="MON" Relationship="QLCFModel.FK_CTHD_MON" FromRole="CTHD" ToRole="MON" />
+        </EntityType>
+        <EntityType Name="CTPC">
+          <Key>
+            <PropertyRef Name="MaPC" />
+            <PropertyRef Name="MaNgL" />
+          </Key>
+          <Property Name="MaPC" Type="Int32" Nullable="false" />
+          <Property Name="MaNgL" Type="Int32" Nullable="false" />
+          <Property Name="SL" Type="Int32" />
+          <NavigationProperty Name="NGUYENLIEU" Relationship="QLCFModel.FK_CTPC_NGUYENLIEU" FromRole="CTPC" ToRole="NGUYENLIEU" />
+          <NavigationProperty Name="PHIEUCHI" Relationship="QLCFModel.FK_CTPC_PHIEUCHI" FromRole="CTPC" ToRole="PHIEUCHI" />
+        </EntityType>
+        <EntityType Name="HOADON">
+          <Key>
+            <PropertyRef Name="MaHD" />
+          </Key>
+          <Property Name="MaHD" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NgXuat" Type="DateTime" Precision="0" />
+          <Property Name="TongGia" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="CTHDs" Relationship="QLCFModel.FK_CTHD_HOADON" FromRole="HOADON" ToRole="CTHD" />
+        </EntityType>
+        <EntityType Name="MON">
+          <Key>
+            <PropertyRef Name="MaM" />
+          </Key>
+          <Property Name="MaM" Type="String" Nullable="false" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="TenMon" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DonGia" Type="Decimal" Precision="10" Scale="4" />
+          <Property Name="MaLoai" Type="Int32" />
+          <NavigationProperty Name="CTHDs" Relationship="QLCFModel.FK_CTHD_MON" FromRole="MON" ToRole="CTHD" />
+          <NavigationProperty Name="PHANLOAI" Relationship="QLCFModel.FK_MON_PHANLOAI" FromRole="MON" ToRole="PHANLOAI" />
+        </EntityType>
+        <EntityType Name="NGUYENLIEU">
+          <Key>
+            <PropertyRef Name="MaNgL" />
+          </Key>
+          <Property Name="MaNgL" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TenNgL" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DonGia" Type="Decimal" Precision="10" Scale="4" />
+          <Property Name="DonVi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="CTPCs" Relationship="QLCFModel.FK_CTPC_NGUYENLIEU" FromRole="NGUYENLIEU" ToRole="CTPC" />
+        </EntityType>
+        <EntityType Name="PHANLOAI">
+          <Key>
+            <PropertyRef Name="MaLoai" />
+          </Key>
+          <Property Name="MaLoai" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TenLoai" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="MONs" Relationship="QLCFModel.FK_MON_PHANLOAI" FromRole="PHANLOAI" ToRole="MON" />
+        </EntityType>
+        <EntityType Name="PHIEUCHI">
+          <Key>
+            <PropertyRef Name="MaPC" />
+          </Key>
+          <Property Name="MaPC" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NgNhap" Type="DateTime" Precision="0" />
+          <Property Name="TongGia" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="CTPCs" Relationship="QLCFModel.FK_CTPC_PHIEUCHI" FromRole="PHIEUCHI" ToRole="CTPC" />
+        </EntityType>
+        <Association Name="FK_CTHD_HOADON">
+          <End Type="QLCFModel.HOADON" Role="HOADON" Multiplicity="1" />
+          <End Type="QLCFModel.CTHD" Role="CTHD" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HOADON">
+              <PropertyRef Name="MaHD" />
+            </Principal>
+            <Dependent Role="CTHD">
+              <PropertyRef Name="MaHD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTHD_MON">
+          <End Type="QLCFModel.MON" Role="MON" Multiplicity="1" />
+          <End Type="QLCFModel.CTHD" Role="CTHD" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MON">
+              <PropertyRef Name="MaM" />
+            </Principal>
+            <Dependent Role="CTHD">
+              <PropertyRef Name="MaM" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTPC_NGUYENLIEU">
+          <End Type="QLCFModel.NGUYENLIEU" Role="NGUYENLIEU" Multiplicity="1" />
+          <End Type="QLCFModel.CTPC" Role="CTPC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NGUYENLIEU">
+              <PropertyRef Name="MaNgL" />
+            </Principal>
+            <Dependent Role="CTPC">
+              <PropertyRef Name="MaNgL" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTPC_PHIEUCHI">
+          <End Type="QLCFModel.PHIEUCHI" Role="PHIEUCHI" Multiplicity="1" />
+          <End Type="QLCFModel.CTPC" Role="CTPC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PHIEUCHI">
+              <PropertyRef Name="MaPC" />
+            </Principal>
+            <Dependent Role="CTPC">
+              <PropertyRef Name="MaPC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MON_PHANLOAI">
+          <End Type="QLCFModel.PHANLOAI" Role="PHANLOAI" Multiplicity="0..1" />
+          <End Type="QLCFModel.MON" Role="MON" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PHANLOAI">
+              <PropertyRef Name="MaLoai" />
+            </Principal>
+            <Dependent Role="MON">
+              <PropertyRef Name="MaLoai" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="QLCFModelStoreContainer" CdmEntityContainer="QLCFEntities1">
+          <EntitySetMapping Name="ACCOUNTs">
+            <EntityTypeMapping TypeName="QLCFModel.ACCOUNT">
+              <MappingFragment StoreEntitySet="ACCOUNT">
+                <ScalarProperty Name="MK" ColumnName="MK" />
+                <ScalarProperty Name="TK" ColumnName="TK" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CTHDs">
+            <EntityTypeMapping TypeName="QLCFModel.CTHD">
+              <MappingFragment StoreEntitySet="CTHD">
+                <ScalarProperty Name="SL" ColumnName="SL" />
+                <ScalarProperty Name="MaM" ColumnName="MaM" />
+                <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CTPCs">
+            <EntityTypeMapping TypeName="QLCFModel.CTPC">
+              <MappingFragment StoreEntitySet="CTPC">
+                <ScalarProperty Name="SL" ColumnName="SL" />
+                <ScalarProperty Name="MaNgL" ColumnName="MaNgL" />
+                <ScalarProperty Name="MaPC" ColumnName="MaPC" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="HOADONs">
+            <EntityTypeMapping TypeName="QLCFModel.HOADON">
+              <MappingFragment StoreEntitySet="HOADON">
+                <ScalarProperty Name="TongGia" ColumnName="TongGia" />
+                <ScalarProperty Name="NgXuat" ColumnName="NgXuat" />
+                <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MONs">
+            <EntityTypeMapping TypeName="QLCFModel.MON">
+              <MappingFragment StoreEntitySet="MON">
+                <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+                <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+                <ScalarProperty Name="TenMon" ColumnName="TenMon" />
+                <ScalarProperty Name="MaM" ColumnName="MaM" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NGUYENLIEUx">
+            <EntityTypeMapping TypeName="QLCFModel.NGUYENLIEU">
+              <MappingFragment StoreEntitySet="NGUYENLIEU">
+                <ScalarProperty Name="DonVi" ColumnName="DonVi" />
+                <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+                <ScalarProperty Name="TenNgL" ColumnName="TenNgL" />
+                <ScalarProperty Name="MaNgL" ColumnName="MaNgL" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PHANLOAIs">
+            <EntityTypeMapping TypeName="QLCFModel.PHANLOAI">
+              <MappingFragment StoreEntitySet="PHANLOAI">
+                <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
+                <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PHIEUCHIs">
+            <EntityTypeMapping TypeName="QLCFModel.PHIEUCHI">
+              <MappingFragment StoreEntitySet="PHIEUCHI">
+                <ScalarProperty Name="TongGia" ColumnName="TongGia" />
+                <ScalarProperty Name="NgNhap" ColumnName="NgNhap" />
+                <ScalarProperty Name="MaPC" ColumnName="MaPC" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

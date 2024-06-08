@@ -1,0 +1,304 @@
+﻿<Window x:Class="cafe_management.SpendingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cafe_management"
+        xmlns:uc="clr-namespace:cafe_management.UserControlCF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="SpendingWindow" Height="830" Width="1100"
+        DataContext="{StaticResource MainVM}"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <uc:ControlBarUC>
+            </uc:ControlBarUC>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400"></ColumnDefinition>
+                <ColumnDefinition Width="0.5"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Width="400" KeyDown="Enter_add_keydown">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="350"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <TextBox
+                            Name="tbName"
+                            materialDesign:HintAssist.Hint="Tên nguyên liệu"
+                            FontSize="20"
+                            Width="281"
+                            FontFamily="Roboto"
+                            CaretBrush="#FFEA8025"
+                            materialDesign:HintAssist.Foreground="#FFEA8025"
+                            materialDesign:TextFieldAssist.UnderlineBrush="#FFEA8025"
+                            Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                            VerticalAlignment="Bottom"
+                            HorizontalAlignment="Left"
+                            Margin="93,2,93,6"
+                            />
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <TextBox
+                            Name="tbQuantity"
+                            materialDesign:HintAssist.Hint="Số lượng"
+                            FontSize="20"
+                            Width="281"
+                            FontFamily="Roboto"
+                            CaretBrush="#FFEA8025"
+                            materialDesign:HintAssist.Foreground="#FFEA8025"
+                            materialDesign:TextFieldAssist.UnderlineBrush="#FFEA8025"
+                            Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                            VerticalAlignment="Bottom"
+                            HorizontalAlignment="Left"
+                            Margin="93,2,93,6"
+                            />
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <TextBox
+                            Name="tbUnit"
+                            materialDesign:HintAssist.Hint="Đơn vị"
+                            FontSize="20"
+                            Width="281"
+                            FontFamily="Roboto"
+                            CaretBrush="#FFEA8025"
+                            materialDesign:HintAssist.Foreground="#FFEA8025"
+                            materialDesign:TextFieldAssist.UnderlineBrush="#FFEA8025"
+                            Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                            VerticalAlignment="Bottom"
+                            HorizontalAlignment="Left"
+                            Margin="93,2,93,6"
+                            />
+                    </Grid>
+                    <Grid Grid.Row="3">
+                        <TextBox
+                            Name="tbPrice"
+                            materialDesign:HintAssist.Hint="Đơn giá"
+                            FontSize="20"
+                            Width="281"
+                            FontFamily="Roboto"
+                            CaretBrush="#FFEA8025"
+                            materialDesign:HintAssist.Foreground="#FFEA8025"
+                            materialDesign:TextFieldAssist.UnderlineBrush="#FFEA8025"
+                            Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                            VerticalAlignment="Bottom"
+                            HorizontalAlignment="Left"
+                            Margin="93,2,93,6"
+                            />
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Button
+                        Click="Add_Click"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"
+                        Height="auto"
+                        Width="auto" Background="{x:Null}" BorderBrush="{x:Null}">
+                        <Image Source="/Resource/SpendingWindow/Click_to_add.png" 
+                               Height="191.25"
+                               Width="150"/>
+                    </Button>
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="1"
+                  Background="#9B9B9B">
+            </Grid>
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="140"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="75"></RowDefinition>
+                    <RowDefinition Height="140"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <TextBlock Text="CHI TIẾT PHIẾU CHI"
+                               FontSize="36"
+                               FontFamily="Roboto"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"></TextBlock>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <DataGrid Name="dgIngredient"
+                                   AutoGenerateColumns="False" 
+                                   GridLinesVisibility="None"
+                                   ItemsSource="{Binding Ingredient}">
+                        <DataGrid.Columns>
+                            <DataGridTemplateColumn IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Foreground="{x:Null}" BorderBrush="{x:Null}" Click="Garbage_Click">
+                                            <Button.Background>
+                                                <ImageBrush ImageSource="/Resource/MenuWindow/Garbage_icon.png" Stretch="Uniform"/>
+                                            </Button.Background>
+                                        </Button>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Width="200" 
+                                            Binding="{Binding Name}"
+                                            FontSize="18"
+                                            FontFamily="Roboto"
+                                            Foreground="#7B7B7B"
+                                            IsReadOnly="True">
+                                <DataGridTextColumn.Header>
+                                    <HeaderedContentControl  FontSize="20" 
+                                                         Header="Tên"
+                                                         FontFamily="Roboto"
+                                                         Foreground="#7B7B7B"
+                                                         HorizontalAlignment="Center">
+                                    </HeaderedContentControl>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+                            <DataGridTemplateColumn Width="120" 
+                                                IsReadOnly="True">
+                                <DataGridTemplateColumn.Header>
+                                    <HeaderedContentControl Header="Số lượng"
+                                                        FontSize="20"
+                                                        FontFamily="Roboto"
+                                                        Foreground="#7B7B7B">
+                                    </HeaderedContentControl>
+                                </DataGridTemplateColumn.Header>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Button BorderBrush="{x:Null}"
+                                                Foreground="{x:Null}"
+                                                HorizontalAlignment="Left"
+                                                Click="MinusQuantity_Click">
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="/Resource/MenuWindow/Minus_icon.png" Stretch="Uniform"/>
+                                                </Button.Background>
+                                            </Button>
+                                            <TextBlock Text="{Binding Quantity}" 
+                                                   VerticalAlignment="Center"
+                                                   FontSize="18"
+                                                   FontFamily="Roboto"
+                                                   Foreground="#7B7B7B"
+                                                   Width="20"
+                                                   HorizontalAlignment="Center"/>
+                                            <Button BorderBrush="{x:Null}" 
+                                                HorizontalAlignment="Right"
+                                                Foreground="{x:Null}"
+                                                Click="AddQuantity_Click">
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="/Resource/MenuWindow/Add_icon.png" Stretch="Uniform"/>
+                                                </Button.Background>
+                                            </Button>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Width="140" Binding="{Binding Unit}"
+                                            FontSize="18"
+                                            FontFamily="Roboto"
+                                            Foreground="#7B7B7B"
+                                            IsReadOnly="True">
+                                <DataGridTextColumn.Header>
+                                    <HeaderedContentControl FontSize="20"
+                                                        FontFamily="Roboto"
+                                                        Foreground="#7B7B7B"
+                                                        Header="Đơn vị" Width="100"
+                                                        ></HeaderedContentControl>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <DataGridTextColumn Width="150" Binding="{Binding Price, StringFormat = {}{0:0} đ}"
+                                            FontSize="18"
+                                            FontFamily="Roboto"
+                                            Foreground="#7B7B7B"
+                                            IsReadOnly="True">
+                                <DataGridTextColumn.Header>
+                                    <HeaderedContentControl FontSize="20"
+                                                        FontFamily="Roboto"
+                                                        Foreground="#7B7B7B"
+                                                        Header="Giá" Width="43"
+                                                        ></HeaderedContentControl>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+                <Grid Grid.Row="2" 
+                      Background="#F1F1F1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <TextBlock Text="Tổng:"
+                                   FontSize="24"
+                                   FontWeight="Bold"
+                                   FontFamily="Roboto"
+                                   Foreground="#7B7B7B"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   Margin="30,2"></TextBlock>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBlock 
+                                   Name="TotalPrice"
+                                   FontSize="24"
+                                   FontWeight="Bold"
+                                   FontFamily="Roboto"
+                                   Foreground="#7B7B7B"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   Margin="30,2"></TextBlock>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Button
+                                Click="Confirm_Click"
+                                FontSize="24"
+                                Foreground="#FFFFFF"
+                                Content="XÁC NHẬN"
+                                FontFamily="Roboto"
+                                Background="#FFEA8025"
+                                Width="200"
+                                Height="60"
+                                materialDesign:ButtonAssist.CornerRadius="15"
+                                Style="{StaticResource MaterialDesignRaisedLightButton}">
+                        </Button>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Button
+                                Click="Terminate_Click"
+                                FontSize="24"
+                                Foreground="#000000"
+                                Content="HỦY BỎ"
+                                FontFamily="Roboto"
+                                Background="#F1F1F1"
+                                Width="200"
+                                Height="60"
+                                materialDesign:ButtonAssist.CornerRadius="15"
+                                Style="{StaticResource MaterialDesignRaisedLightButton}">
+                        </Button>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

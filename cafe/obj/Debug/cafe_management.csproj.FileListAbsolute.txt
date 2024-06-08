@@ -1,0 +1,432 @@
+C:\Users\ASUS\source\cafe_management\cafe_management\bin\Debug\cafe_management.exe.config
+C:\Users\ASUS\source\cafe_management\cafe_management\bin\Debug\cafe_management.exe
+C:\Users\ASUS\source\cafe_management\cafe_management\bin\Debug\cafe_management.pdb
+C:\Users\ASUS\source\cafe_management\cafe_management\bin\Debug\MaterialDesignColors.dll
+C:\Users\ASUS\source\cafe_management\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ASUS\source\cafe_management\cafe_management\bin\Debug\MaterialDesignColors.pdb
+C:\Users\ASUS\source\cafe_management\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ASUS\source\cafe_management\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\cafe_management.csprojAssemblyReference.cache
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\MainWindow.g.cs
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\App.g.cs
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\cafe_management_MarkupCompile.cache
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\cafe_management_MarkupCompile.lref
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\App.baml
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\MainWindow.baml
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\cafe_management.g.resources
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\cafe_management.Properties.Resources.resources
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\cafe_management.csproj.GenerateResource.cache
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\cafe_management.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\cafe_management.csproj.CopyComplete
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\cafe_management.exe
+C:\Users\ASUS\source\cafe_management\cafe_management\obj\Debug\cafe_management.pdb
+E:\cafe_management\cafe_management\obj\Debug\cafe_management.csprojAssemblyReference.cache
+E:\cafe_management\cafe_management\obj\Debug\LoginWindow.g.cs
+E:\cafe_management\cafe_management\obj\Debug\MainWindow.g.cs
+E:\cafe_management\cafe_management\obj\Debug\App.g.cs
+E:\cafe_management\cafe_management\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\cafe_management\cafe_management\obj\Debug\cafe_management_MarkupCompile.cache
+E:\cafe_management\cafe_management\obj\Debug\cafe_management_MarkupCompile.lref
+E:\cafe_management\cafe_management\obj\Debug\cafe_management.exe
+E:\cafe_management\cafe_management\obj\Debug\cafe_management.pdb
+E:\cafe_management\cafe_management\obj\Debug\App.baml
+E:\cafe_management\cafe_management\obj\Debug\LoginWindow.baml
+E:\cafe_management\cafe_management\obj\Debug\MainWindow.baml
+E:\cafe_management\cafe_management\bin\Debug\cafe_management.exe.config
+E:\cafe_management\cafe_management\bin\Debug\cafe_management.exe
+E:\cafe_management\cafe_management\bin\Debug\cafe_management.pdb
+E:\cafe_management\cafe_management\bin\Debug\MaterialDesignColors.dll
+E:\cafe_management\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\cafe_management\cafe_management\bin\Debug\MaterialDesignColors.pdb
+E:\cafe_management\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\cafe_management\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\cafe_management\cafe_management\obj\Debug\ResourceXAML\MainResource.baml
+E:\cafe_management\cafe_management\obj\Debug\cafe_management.g.resources
+E:\cafe_management\cafe_management\obj\Debug\cafe_management.Properties.Resources.resources
+E:\cafe_management\cafe_management\obj\Debug\cafe_management.csproj.GenerateResource.cache
+E:\cafe_management\cafe_management\obj\Debug\cafe_management.csproj.CoreCompileInputs.cache
+E:\cafe_management\cafe_management\obj\Debug\cafe_management.csproj.CopyComplete
+F:\cafe_management\cafe_management\bin\Debug\cafe_management.exe.config
+F:\cafe_management\cafe_management\bin\Debug\cafe_management.exe
+F:\cafe_management\cafe_management\bin\Debug\cafe_management.pdb
+F:\cafe_management\cafe_management\bin\Debug\MaterialDesignColors.dll
+F:\cafe_management\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\cafe_management\cafe_management\bin\Debug\MaterialDesignColors.pdb
+F:\cafe_management\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\cafe_management\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\cafe_management\cafe_management\obj\Debug\cafe_management.csprojAssemblyReference.cache
+F:\cafe_management\cafe_management\obj\Debug\LoginWindow.g.cs
+F:\cafe_management\cafe_management\obj\Debug\MainWindow.g.cs
+F:\cafe_management\cafe_management\obj\Debug\App.g.cs
+F:\cafe_management\cafe_management\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\cafe_management\cafe_management\obj\Debug\cafe_management_MarkupCompile.cache
+F:\cafe_management\cafe_management\obj\Debug\cafe_management_MarkupCompile.lref
+F:\cafe_management\cafe_management\obj\Debug\App.baml
+F:\cafe_management\cafe_management\obj\Debug\LoginWindow.baml
+F:\cafe_management\cafe_management\obj\Debug\MainWindow.baml
+F:\cafe_management\cafe_management\obj\Debug\ResourceXAML\MainResource.baml
+F:\cafe_management\cafe_management\obj\Debug\cafe_management.g.resources
+F:\cafe_management\cafe_management\obj\Debug\cafe_management.Properties.Resources.resources
+F:\cafe_management\cafe_management\obj\Debug\cafe_management.csproj.GenerateResource.cache
+F:\cafe_management\cafe_management\obj\Debug\cafe_management.csproj.CoreCompileInputs.cache
+F:\cafe_management\cafe_management\obj\Debug\cafe_management.csproj.CopyComplete
+F:\cafe_management\cafe_management\obj\Debug\cafe_management.exe
+F:\cafe_management\cafe_management\obj\Debug\cafe_management.pdb
+F:\cafe_management\cafe_management\obj\Debug\StaffWindow.g.cs
+F:\cafe_management\cafe_management\obj\Debug\StaffWindow.baml
+E:\DoAnLTTQ\cafe_management\bin\Debug\cafe_management.exe.config
+E:\DoAnLTTQ\cafe_management\bin\Debug\cafe_management.exe
+E:\DoAnLTTQ\cafe_management\bin\Debug\cafe_management.pdb
+E:\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignColors.dll
+E:\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignColors.pdb
+E:\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csprojAssemblyReference.cache
+E:\DoAnLTTQ\cafe_management\obj\Debug\LoginWindow.g.cs
+E:\DoAnLTTQ\cafe_management\obj\Debug\MainWindow.g.cs
+E:\DoAnLTTQ\cafe_management\obj\Debug\StaffWindow.g.cs
+E:\DoAnLTTQ\cafe_management\obj\Debug\App.g.cs
+E:\DoAnLTTQ\cafe_management\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\DoAnLTTQ\cafe_management\obj\Debug\cafe_management_MarkupCompile.cache
+E:\DoAnLTTQ\cafe_management\obj\Debug\cafe_management_MarkupCompile.lref
+E:\DoAnLTTQ\cafe_management\obj\Debug\App.baml
+E:\DoAnLTTQ\cafe_management\obj\Debug\LoginWindow.baml
+E:\DoAnLTTQ\cafe_management\obj\Debug\MainWindow.baml
+E:\DoAnLTTQ\cafe_management\obj\Debug\ResourceXAML\MainResource.baml
+E:\DoAnLTTQ\cafe_management\obj\Debug\StaffWindow.baml
+E:\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.g.resources
+E:\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.Properties.Resources.resources
+E:\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csproj.GenerateResource.cache
+E:\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csproj.CoreCompileInputs.cache
+E:\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csproj.CopyComplete
+E:\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.exe
+E:\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.pdb
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\cafe_management.exe.config
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\cafe_management.exe
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\cafe_management.pdb
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignColors.dll
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignColors.pdb
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\LoginWindow.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\MainWindow.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\StaffWindow.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\App.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\cafe_management_MarkupCompile.cache
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\cafe_management_MarkupCompile.lref
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\App.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\LoginWindow.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\MainWindow.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\ResourceXAML\MainResource.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\StaffWindow.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.g.resources
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.Properties.Resources.resources
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csproj.CopyComplete
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.exe
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.pdb
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\MenuWindow.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\MenuWindow.baml
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\bin\Debug\cafe_management.exe.config
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\bin\Debug\cafe_management.exe
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\bin\Debug\cafe_management.pdb
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignColors.dll
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignColors.pdb
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.csprojAssemblyReference.cache
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\LoginWindow.g.cs
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\MainWindow.g.cs
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\MenuWindow.g.cs
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\StaffWindow.g.cs
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\App.g.cs
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management_MarkupCompile.cache
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management_MarkupCompile.lref
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\App.baml
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\LoginWindow.baml
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\MainWindow.baml
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\MenuWindow.baml
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\ResourceXAML\MainResource.baml
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\StaffWindow.baml
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.g.resources
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.Properties.Resources.resources
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.csproj.GenerateResource.cache
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.csproj.CoreCompileInputs.cache
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.csproj.CopyComplete
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.exe
+E:\HOCTAP\Nam2_Ki_1\Lap Trinh Truc Quan\DoAnLTTQ-17h05\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.pdb
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\LoginWindow.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\MainWindow.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\MenuWindow.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\StaffWindow.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\App.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management_MarkupCompile.cache
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management_MarkupCompile.lref
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.exe
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.pdb
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\bin\Debug\cafe_management.exe.config
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\bin\Debug\cafe_management.exe
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\bin\Debug\cafe_management.pdb
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignColors.dll
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignColors.pdb
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\App.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\LoginWindow.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\MainWindow.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\MenuWindow.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\ResourceXAML\MainResource.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\StaffWindow.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.g.resources
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.Properties.Resources.resources
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.csproj.CopyComplete
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\bin\Debug\cafe_management.exe.config
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\bin\Debug\cafe_management.exe
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\bin\Debug\cafe_management.pdb
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignColors.dll
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignColors.pdb
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.csprojAssemblyReference.cache
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\LoginWindow.g.cs
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\MainWindow.g.cs
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\MenuWindow.g.cs
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\StaffWindow.g.cs
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\App.g.cs
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management_MarkupCompile.cache
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management_MarkupCompile.lref
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\App.baml
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\LoginWindow.baml
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\MainWindow.baml
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\MenuWindow.baml
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\ResourceXAML\MainResource.baml
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\StaffWindow.baml
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.g.resources
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.Properties.Resources.resources
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.csproj.GenerateResource.cache
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.csproj.CopyComplete
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.exe
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management.pdb
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Downloads\DoAnLTTQ-main\cafe_management\obj\Debug\cafe_management_Content.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.dll
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.xml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\cafe_management_Content.g.cs
+E:\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.dll
+E:\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.SqlServer.dll
+E:\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.xml
+E:\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.SqlServer.xml
+E:\DoAnLTTQ\cafe_management\obj\Debug\MenuWindow.g.cs
+E:\DoAnLTTQ\cafe_management\obj\Debug\cafe_management_Content.g.cs
+E:\DoAnLTTQ\cafe_management\obj\Debug\MenuWindow.baml
+E:\New folder\cafe_management\bin\Debug\cafe_management.exe.config
+E:\New folder\cafe_management\bin\Debug\cafe_management.exe
+E:\New folder\cafe_management\bin\Debug\cafe_management.pdb
+E:\New folder\cafe_management\bin\Debug\EntityFramework.dll
+E:\New folder\cafe_management\bin\Debug\EntityFramework.SqlServer.dll
+E:\New folder\cafe_management\bin\Debug\MaterialDesignColors.dll
+E:\New folder\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\New folder\cafe_management\bin\Debug\EntityFramework.xml
+E:\New folder\cafe_management\bin\Debug\EntityFramework.SqlServer.xml
+E:\New folder\cafe_management\bin\Debug\MaterialDesignColors.pdb
+E:\New folder\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\New folder\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\New folder\cafe_management\obj\Debug\cafe_management.csprojAssemblyReference.cache
+E:\New folder\cafe_management\obj\Debug\LoginWindow.g.cs
+E:\New folder\cafe_management\obj\Debug\MainWindow.g.cs
+E:\New folder\cafe_management\obj\Debug\MenuWindow.g.cs
+E:\New folder\cafe_management\obj\Debug\StaffWindow.g.cs
+E:\New folder\cafe_management\obj\Debug\App.g.cs
+E:\New folder\cafe_management\obj\Debug\cafe_management_Content.g.cs
+E:\New folder\cafe_management\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\New folder\cafe_management\obj\Debug\cafe_management_MarkupCompile.cache
+E:\New folder\cafe_management\obj\Debug\cafe_management_MarkupCompile.lref
+E:\New folder\cafe_management\obj\Debug\App.baml
+E:\New folder\cafe_management\obj\Debug\LoginWindow.baml
+E:\New folder\cafe_management\obj\Debug\MainWindow.baml
+E:\New folder\cafe_management\obj\Debug\MenuWindow.baml
+E:\New folder\cafe_management\obj\Debug\ResourceXAML\MainResource.baml
+E:\New folder\cafe_management\obj\Debug\StaffWindow.baml
+E:\New folder\cafe_management\obj\Debug\cafe_management.g.resources
+E:\New folder\cafe_management\obj\Debug\cafe_management.Properties.Resources.resources
+E:\New folder\cafe_management\obj\Debug\cafe_management.csproj.GenerateResource.cache
+E:\New folder\cafe_management\obj\Debug\cafe_management.csproj.CoreCompileInputs.cache
+E:\New folder\cafe_management\obj\Debug\cafe_management.csproj.CopyComplete
+E:\New folder\cafe_management\obj\Debug\cafe_management.exe
+E:\New folder\cafe_management\obj\Debug\cafe_management.pdb
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\bin\Debug\cafe_management.exe.config
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\bin\Debug\cafe_management.exe
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\bin\Debug\cafe_management.pdb
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.dll
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignColors.dll
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.xml
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignColors.pdb
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csprojAssemblyReference.cache
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\LoginWindow.g.cs
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\MainWindow.g.cs
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\MenuWindow.g.cs
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\StaffWindow.g.cs
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\App.g.cs
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\cafe_management_Content.g.cs
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\cafe_management_MarkupCompile.cache
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\cafe_management_MarkupCompile.lref
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\App.baml
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\LoginWindow.baml
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\MainWindow.baml
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\MenuWindow.baml
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\ResourceXAML\MainResource.baml
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\StaffWindow.baml
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.g.resources
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.Properties.Resources.resources
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csproj.GenerateResource.cache
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csproj.CoreCompileInputs.cache
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csproj.CopyComplete
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.exe
+C:\Users\longt\OneDrive\Desktop\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.pdb
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\UserControlCF\ControlBarUC.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\UserControlCF\ControlBarUC.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\StatisticWindow.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\StatisticWindow.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\AccountWindow.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\NotificationWindow.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\AccountWindow.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\NotificationWindow.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\SpendingWindow.g.cs
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\obj\Debug\SpendingWindow.baml
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\itextsharp.dll
+C:\Users\ASUS\source\repos\DoAnLTTQ\cafe_management\bin\Debug\itextsharp.xml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csprojAssemblyReference.cache
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\AccountWindow.g.cs
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\LoginWindow.g.cs
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\MainWindow.g.cs
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\MenuWindow.g.cs
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\NotificationWindow.g.cs
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\SpendingWindow.g.cs
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\StaffWindow.g.cs
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\StatisticWindow.g.cs
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\UserControlCF\ControlBarUC.g.cs
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\App.g.cs
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\cafe_management_Content.g.cs
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\cafe_management_MarkupCompile.cache
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\cafe_management_MarkupCompile.lref
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.exe
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.pdb
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\cafe_management.exe.config
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\cafe_management.exe
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\cafe_management.pdb
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.dll
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\itextsharp.dll
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignColors.dll
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.xml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\itextsharp.xml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignColors.pdb
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\App.baml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\AccountWindow.baml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\LoginWindow.baml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\MainWindow.baml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\MenuWindow.baml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\NotificationWindow.baml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\ResourceXAML\MainResource.baml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\SpendingWindow.baml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\StaffWindow.baml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\StatisticWindow.baml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\UserControlCF\ControlBarUC.baml
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.g.resources
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.Properties.Resources.resources
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csproj.GenerateResource.cache
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csproj.CoreCompileInputs.cache
+C:\Users\longt\OneDrive\Desktop\Note\DoAnLTTQ\cafe_management\obj\Debug\cafe_management.csproj.CopyComplete
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\cafe_management.exe.config
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\cafe_management.exe
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\cafe_management.pdb
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\BouncyCastle.Crypto.dll
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\EntityFramework.dll
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\EntityFramework.SqlServer.dll
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\itextsharp.dll
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\MaterialDesignColors.dll
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.dll
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\Microsoft.Expression.Interactions.dll
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\System.Windows.Interactivity.dll
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\EntityFramework.xml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\EntityFramework.SqlServer.xml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\itextsharp.xml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\MaterialDesignColors.pdb
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.pdb
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\MaterialDesignThemes.Wpf.xml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\Microsoft.Expression.Interactions.xml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\bin\Debug\System.Windows.Interactivity.xml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\cafe_management.csproj.AssemblyReference.cache
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\AccountWindow.g.cs
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\LoginWindow.g.cs
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\MainWindow.g.cs
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\MenuWindow.g.cs
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\NotificationWindow.g.cs
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\SpendingWindow.g.cs
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\StaffWindow.g.cs
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\StatisticWindow.g.cs
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\UserControlCF\ControlBarUC.g.cs
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\App.g.cs
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\cafe_management_Content.g.cs
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\cafe_management_MarkupCompile.cache
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\cafe_management_MarkupCompile.lref
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\App.baml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\AccountWindow.baml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\LoginWindow.baml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\MainWindow.baml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\MenuWindow.baml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\NotificationWindow.baml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\ResourceXAML\MainResource.baml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\SpendingWindow.baml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\StaffWindow.baml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\StatisticWindow.baml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\UserControlCF\ControlBarUC.baml
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\cafe_management.g.resources
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\cafe_management.Properties.Resources.resources
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\cafe_management.csproj.GenerateResource.cache
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\cafe_management.csproj.CoreCompileInputs.cache
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\cafe_management.csproj.CopyComplete
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\cafe_management.exe
+I:\@2. Share Code\New folder\wpf_cafe_management-main\wpf_cafe_management-main\cafe_management\obj\Debug\cafe_management.pdb

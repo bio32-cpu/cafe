@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLCFModelStoreContainer" CdmEntityContainer="QLCFEntities1">
+    <EntitySetMapping Name="ACCOUNTs">
+      <EntityTypeMapping TypeName="QLCFModel.ACCOUNT">
+        <MappingFragment StoreEntitySet="ACCOUNT">
+          <ScalarProperty Name="MK" ColumnName="MK" />
+          <ScalarProperty Name="TK" ColumnName="TK" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CTHDs">
+      <EntityTypeMapping TypeName="QLCFModel.CTHD">
+        <MappingFragment StoreEntitySet="CTHD">
+          <ScalarProperty Name="SL" ColumnName="SL" />
+          <ScalarProperty Name="MaM" ColumnName="MaM" />
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CTPCs">
+      <EntityTypeMapping TypeName="QLCFModel.CTPC">
+        <MappingFragment StoreEntitySet="CTPC">
+          <ScalarProperty Name="SL" ColumnName="SL" />
+          <ScalarProperty Name="MaNgL" ColumnName="MaNgL" />
+          <ScalarProperty Name="MaPC" ColumnName="MaPC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOADONs">
+      <EntityTypeMapping TypeName="QLCFModel.HOADON">
+        <MappingFragment StoreEntitySet="HOADON">
+          <ScalarProperty Name="TongGia" ColumnName="TongGia" />
+          <ScalarProperty Name="NgXuat" ColumnName="NgXuat" />
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MONs">
+      <EntityTypeMapping TypeName="QLCFModel.MON">
+        <MappingFragment StoreEntitySet="MON">
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="TenMon" ColumnName="TenMon" />
+          <ScalarProperty Name="MaM" ColumnName="MaM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NGUYENLIEUx">
+      <EntityTypeMapping TypeName="QLCFModel.NGUYENLIEU">
+        <MappingFragment StoreEntitySet="NGUYENLIEU">
+          <ScalarProperty Name="DonVi" ColumnName="DonVi" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="TenNgL" ColumnName="TenNgL" />
+          <ScalarProperty Name="MaNgL" ColumnName="MaNgL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHANLOAIs">
+      <EntityTypeMapping TypeName="QLCFModel.PHANLOAI">
+        <MappingFragment StoreEntitySet="PHANLOAI">
+          <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEUCHIs">
+      <EntityTypeMapping TypeName="QLCFModel.PHIEUCHI">
+        <MappingFragment StoreEntitySet="PHIEUCHI">
+          <ScalarProperty Name="TongGia" ColumnName="TongGia" />
+          <ScalarProperty Name="NgNhap" ColumnName="NgNhap" />
+          <ScalarProperty Name="MaPC" ColumnName="MaPC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
